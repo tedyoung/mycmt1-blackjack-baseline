@@ -84,7 +84,7 @@ public class Game {
     } else if (handValueOf(dealerHand) < handValueOf(playerHand)) {
       System.out.println("You beat the Dealer! 💵");
     } else if (handValueOf(dealerHand) == handValueOf(playerHand)) {
-      System.out.println("Push: The house wins, you Lose. 💸");
+      System.out.println("Push: You tie with the Dealer. 💸");
     } else {
       System.out.println("You lost to the Dealer. 💸");
     }
