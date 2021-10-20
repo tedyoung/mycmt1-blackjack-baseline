@@ -6,7 +6,7 @@
 
   <groupId>com.jitterted.ebp</groupId>
   <artifactId>blackjack</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
 
   <name>Blackjack Game</name>
@@ -16,17 +16,17 @@
 
     <maven.compiler.release>11</maven.compiler.release>
 
-    <maven.jar.plugin.version>3.1.1</maven.jar.plugin.version>
+    <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
 
-    <assertj.version>3.19.0</assertj.version>
-    <junit.version>5.7.2</junit.version>
+    <assertj.version>3.21.0</assertj.version>
+    <junit.version>5.8.1</junit.version>
   </properties>
 
   <dependencies>
     <dependency> <!-- https://github.com/fusesource/jansi -->
       <groupId>org.fusesource.jansi</groupId>
       <artifactId>jansi</artifactId>
-      <version>2.3.1</version>
+      <version>2.3.4</version>
     </dependency>
 
     <dependency>

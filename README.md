@@ -7,16 +7,21 @@ This is the starter code base for the "Make Code More Testable" class.
 You **must have** the following already set up and running on your machine:
 
 * Java 11 or later
-* Maven 3.6 or later - including settings to properly connect to your internal artifact repository, if any
 * A development environment such as IntelliJ IDEA or Eclipse
 
 # Setting Up Project
 
 Before opening up the project using your development environment, make sure that you can build the project from the command-line by running:
 
+### macOS/Linux:
 ```sh
-mvn verify
-``` 
+./mvnw verify
+```
+
+### Windows
+```
+mvnw verify
+```
 
 If you get errors about dependencies being unavailable, that means your machine isn't set up correctly to get the dependencies from your artifact repository. Please work with your tech support or your colleagues to resolve this issue as it completely depends on your machine's VPN and security set up.
 
@@ -27,14 +32,26 @@ Once the project compiles from the command-line, open it in your development env
 To run the game, it works best if you run it in a real terminal window and not inside of the IDE.
 To do this, use Maven to build and package the JAR and then you can run it:
 
+### macOS/Linux:
 ```sh
-mvn package
+./mvnw package
+```
+
+### Windows
+```
+mvnw package
 ```
 
 This will download dependencies, compile the code, run the tests, and then package it into a JAR file that it will put in the `target` directory. To run it, do the following:
 
+### macOS/Linux:
 ```sh
-java -jar target/blackjack-1.0.0.jar
+java -jar target/blackjack-1.0.1.jar
+```
+
+### Windows
+```
+java -jar target\blackjack-1.0.1.jar
 ```
 
 ## Rules of Blackjack
