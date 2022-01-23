@@ -1,6 +1,6 @@
-# Make Your Blackjack Code More Testable
+# Refactoring to Testable Code with the Blackjack Game
 
-This is the starter code base for the "Make Code More Testable" class.
+This is the starter code base for the "Refactoring to Testable Code" class (aka "Make Your Code More Testable").
 
 # Requirements
 
@@ -62,7 +62,8 @@ Blackjack uses a standard deck of 52 playing cards. Each card has a rank: Ace (A
 
 Each round proceeds as follows:
 
-* The dealer shuffles the deck and deals two cards "face up" (with the Rank of the card showing) to each player. The dealer deals their cards with one card "face down" (with only the back showing) and one card "face up".
+* The dealer shuffles the deck and deals one card "face up" (with the Rank and Suit of the card showing) to each player (clockwise if there's more than one). Then the dealer deals a card to itself.
+* The dealer deals another card to the player, and then a card to itself. This second card to the dealer is not shown, i.e., it is "face down" (with only the back showing) and is sometimes called the "hole card".
 * The dealer asks the first player whether they want to "hit" (get another card from the deck) or "stand" (not get any more cards).
 * If they choose to stand, their turn is over and the game moves on to the next player, if any.
 * If the player hits, the dealer deals them a card from the deck, face up, and their hand score changes based on the additional card.
