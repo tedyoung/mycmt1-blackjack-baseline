@@ -18,7 +18,7 @@
 
     <maven.jar.plugin.version>3.2.0</maven.jar.plugin.version>
 
-    <assertj.version>3.23.0</assertj.version>
+    <assertj.version>3.23.1</assertj.version>
     <junit.version>5.8.2</junit.version>
     <jansi.version>2.4.0</jansi.version>
   </properties>
