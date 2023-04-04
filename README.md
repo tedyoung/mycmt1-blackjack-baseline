@@ -1,6 +1,6 @@
 # Refactoring to Testable Code with the Blackjack Game
 
-This is the starter code base for the "Refactoring to Testable Code" class (aka "Make Your Code More Testable").
+This is the starter code base for the "Refactoring to Testable Code" (R2TC) class (aka "Make Your Code More Testable").
 
 # Requirements
 
@@ -29,7 +29,7 @@ Once the project compiles from the command-line, open it in your development env
 
 ## Running and Playing the Game
 
-To run the game, it works best if you run it in a real terminal window and not inside of the IDE.
+To run the game, it works best if you run it in a real terminal window and **not inside** the IDE.
 To do this, use Maven to build and package the JAR and then you can run it:
 
 ### macOS/Linux:
@@ -50,6 +50,9 @@ java -jar target/blackjack-1.0.1.jar
 ```
 
 ### Windows
+
+Do not run this inside of a **git bash** terminal, as that has been buggy for some folks. Use the Command terminal or PowerShell.
+
 ```
 java -jar target\blackjack-1.0.1.jar
 ```
